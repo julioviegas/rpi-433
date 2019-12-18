@@ -1,5 +1,7 @@
 all: codesend RFSniffer
-	
+
+CXXFLAGS = -fpermissive
+
 codesend: RCSwitch.o codesend.o
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) $+ -o ../build/$@ -lwiringPi
 	
