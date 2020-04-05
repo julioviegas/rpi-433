@@ -14,7 +14,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "cd ./src && /usr/bin/make"
+    "install": "mkdir /usr/local/lib/node_modules/rpi-433/build && cd /usr/local/lib/node_modules/rpi-433/src && /usr/bin/make"
   },
   "keywords": [
     "raspberry",
